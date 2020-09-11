@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import time
 
+#He agregado un nuevo comentario
+
 fig, (ax1, ax2) = plt.subplots(nrows=2, ncols=1)
 slider1 = st.sidebar.slider("amplitud",min_value=0, max_value=10, value=1, step=1)
 frecuencia = st.sidebar.number_input("frecuencia", min_value=0.0, max_value=20.0, value=1.0, step=0.1)
